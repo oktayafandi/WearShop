@@ -57,6 +57,11 @@ body {
   background-color: #f7f7f7;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 .page-wrapper {
   height: 100%;
   display: table;
@@ -70,7 +75,7 @@ body {
 .el-wrapper {
   width: 360px;
   padding: 15px;
-  margin: 15px auto;
+  margin: 30px auto;
   background-color: #fff;
 }
 
@@ -1065,5 +1070,89 @@ button.ghost {
   margin: 0 5px;
   height: 40px;
   width: 40px;
+}
+
+.categoryname {
+  font-family: "Besley", serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button-outer {
+  text-align: center;
+}
+
+.button-outer .fltbtn {
+  font-family: "Besley", serif;
+  font-size: 18px;
+  padding: 2px 20px;
+  color: black;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid;
+  outline: 0;
+  position: relative;
+}
+
+.button-outer .fltbtn .flticon {
+  color: black;
+}
+
+.sidebarcloseicon {
+  margin-left: 100px;
+  color: black;
+  font-size: 14px;
+}
+
+.sidebardropicon {
+  margin-left: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+.dropdown-check-list {
+  display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+}
+
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+
+.dropdown-check-list ul.items {
+  display: none;
+  margin: 0;
+  padding-left: 10px;
+  border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible .anchor {
+  color: #0094ff;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+}
+
+.prddt {
+  font-family: "Besley", serif;
+  padding: 100px;
+}
+
+.prddt .prddtimg {
+  width: 600px;
+  height: 600px;
 }
 /*# sourceMappingURL=index.css.map */
